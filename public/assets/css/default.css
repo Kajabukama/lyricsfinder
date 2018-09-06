@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
     padding: 0;
@@ -63,4 +64,8 @@ h3 {
 
 .elevation {
     border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+=======
+body{
+   font-family: 'Myriad Pro','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> f0ef6798a2e36e69e2866b07ea8f8806a7a50f0b
 }
