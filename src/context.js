@@ -11,7 +11,7 @@ export class Provider extends Component {
    }
 
    componentDidMount(){
-      axios.get(`http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=1&page_size=10&country=us&f_has_lyrics=1&apikey=b10bd295f901e234430a7d40235a54e1`)
+      axios.get(`https://cors-anywhere.herokuapp.com/http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=1&page_size=15&country=us&f_has_lyrics=1&apikey=${process.env.REACT_APP_MM_KEY}`)
       .then( result => console.log(result.data))
       .catch( error => console.log(error))
    }
