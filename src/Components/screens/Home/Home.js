@@ -1,5 +1,5 @@
 import React from 'react';
-import TrackList from '../../common/Tracks'
+import TrackList from '../../common/Track/Tracks'
 
 const HomeScreen = () => {
    return (

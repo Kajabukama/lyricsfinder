@@ -1,0 +1,102 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /*min-width: 980px;*/
+    font-family: Eina;
+    background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: 900 !important;
+    color: #ff536e !important;
+}
+
+.card {
+    border: none !important;
+    border-radius: none !important;
+}
+
+.btn,
+.btn-primary,
+.btn-lg {
+    padding-bottom: 13px !important;
+    font-weight: 300 !important;
+    border-radius: none !important;
+}
+
+.icon-size-lg {
+    font-size: 1.0em;
+    margin-right: 10px;
+    color: #ff536e;
+    vertical-align: baseline
+}
+
+.icon-size-sm {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #ff536e;
+    vertical-align: baseline
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Eina';
+    src: url('../fonts/Eina/Eina01-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eina';
+    src: url('../fonts/Eina/Eina01-SemiBold.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eina';
+    src: url('../fonts/Eina/Eina01-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eina';
+    src: url('../fonts/Eina/Eina01-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/helveticaneue.eot');
+    src: url('../fonts/Helvetica/helveticaneue.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/helveticaneue.woff') format('woff'), url('../fonts/Helvetica/helveticaneue.ttf') format('truetype'), url('../fonts/Helvetica/helveticaneue.svg#HelveticaNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueUltraLight';
+    src: url('../fonts/Helvetica/helveticaneueultralight.eot');
+    src: url('../fonts/Helvetica/helveticaneueultralight.eot?#iefix') format('embedded-opentype'), url('../fonts/Helvetica/helveticaneueultralight.woff') format('woff'), url('../fonts/Helvetica/helveticaneueultralight.ttf') format('truetype'), url('../fonts/Helvetica/helveticaneueultralight.svg#HelveticaNeueUltraLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.elevation {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06)
+}
