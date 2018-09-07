@@ -26,6 +26,7 @@ h6 {
 .card {
     border: none !important;
     border-radius: none !important;
+    /* height: 250px !important; */
 }
 
 .btn,
