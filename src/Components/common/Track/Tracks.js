@@ -26,6 +26,7 @@ class TrackList extends Component {
                   {track_list.map(item => (
                     <Track
                       key={item.track.track_id}
+                      track_id={item.track.track_id}
                       artist={item.track.artist_name}
                       track={item.track.track_name}
                       album={item.track.album_name}
